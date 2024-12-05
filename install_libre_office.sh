@@ -15,7 +15,7 @@ install_libreoffice() {
   apt-get install -y software-properties-common
   add-apt-repository -y ppa:libreoffice/ppa
   apt-get update
-  apt-get install -y libreoffice libreoffice-gtk3
+  apt-get install -y libreoffice libreoffice-gtk3 git
 }
 
 # Configurar el ícono en el escritorio
